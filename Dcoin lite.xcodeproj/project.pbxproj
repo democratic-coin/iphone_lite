@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FF8DA5A1CBD57CC0012AC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA591CBD57CC0012AC34 /* AppDelegate.swift */; };
+		7FF8DA5C1CBD57CC0012AC34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA5B1CBD57CC0012AC34 /* ViewController.swift */; };
+		7FF8DA5F1CBD57CC0012AC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8DA5D1CBD57CC0012AC34 /* Main.storyboard */; };
+		7FF8DA611CBD57CD0012AC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8DA601CBD57CD0012AC34 /* Assets.xcassets */; };
+		7FF8DA641CBD57CD0012AC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8DA621CBD57CD0012AC34 /* LaunchScreen.storyboard */; };
+		7FF8DA6F1CBD57CD0012AC34 /* Dcoin_liteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA6E1CBD57CD0012AC34 /* Dcoin_liteTests.swift */; };
+		7FF8DA7A1CBD57CD0012AC34 /* Dcoin_liteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA791CBD57CD0012AC34 /* Dcoin_liteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FF8DA6B1CBD57CD0012AC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF8DA4E1CBD57CC0012AC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF8DA551CBD57CC0012AC34;
+			remoteInfo = "Dcoin lite";
+		};
+		7FF8DA761CBD57CD0012AC34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF8DA4E1CBD57CC0012AC34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF8DA551CBD57CC0012AC34;
+			remoteInfo = "Dcoin lite";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FF8DA561CBD57CC0012AC34 /* Dcoin lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dcoin lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF8DA591CBD57CC0012AC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FF8DA5B1CBD57CC0012AC34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FF8DA5E1CBD57CC0012AC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FF8DA601CBD57CD0012AC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FF8DA631CBD57CD0012AC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FF8DA651CBD57CD0012AC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF8DA6A1CBD57CD0012AC34 /* Dcoin liteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dcoin liteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF8DA6E1CBD57CD0012AC34 /* Dcoin_liteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dcoin_liteTests.swift; sourceTree = "<group>"; };
+		7FF8DA701CBD57CD0012AC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF8DA751CBD57CD0012AC34 /* Dcoin liteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dcoin liteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF8DA791CBD57CD0012AC34 /* Dcoin_liteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dcoin_liteUITests.swift; sourceTree = "<group>"; };
+		7FF8DA7B1CBD57CD0012AC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF8DA531CBD57CC0012AC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA671CBD57CD0012AC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA721CBD57CD0012AC34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FF8DA4D1CBD57CC0012AC34 = {
+			isa = PBXGroup;
+			children = (
+				7FF8DA581CBD57CC0012AC34 /* Dcoin lite */,
+				7FF8DA6D1CBD57CD0012AC34 /* Dcoin liteTests */,
+				7FF8DA781CBD57CD0012AC34 /* Dcoin liteUITests */,
+				7FF8DA571CBD57CC0012AC34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF8DA571CBD57CC0012AC34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF8DA561CBD57CC0012AC34 /* Dcoin lite.app */,
+				7FF8DA6A1CBD57CD0012AC34 /* Dcoin liteTests.xctest */,
+				7FF8DA751CBD57CD0012AC34 /* Dcoin liteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF8DA581CBD57CC0012AC34 /* Dcoin lite */ = {
+			isa = PBXGroup;
+			children = (
+				7FF8DA591CBD57CC0012AC34 /* AppDelegate.swift */,
+				7FF8DA5B1CBD57CC0012AC34 /* ViewController.swift */,
+				7FF8DA5D1CBD57CC0012AC34 /* Main.storyboard */,
+				7FF8DA601CBD57CD0012AC34 /* Assets.xcassets */,
+				7FF8DA621CBD57CD0012AC34 /* LaunchScreen.storyboard */,
+				7FF8DA651CBD57CD0012AC34 /* Info.plist */,
+			);
+			path = "Dcoin lite";
+			sourceTree = "<group>";
+		};
+		7FF8DA6D1CBD57CD0012AC34 /* Dcoin liteTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF8DA6E1CBD57CD0012AC34 /* Dcoin_liteTests.swift */,
+				7FF8DA701CBD57CD0012AC34 /* Info.plist */,
+			);
+			path = "Dcoin liteTests";
+			sourceTree = "<group>";
+		};
+		7FF8DA781CBD57CD0012AC34 /* Dcoin liteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF8DA791CBD57CD0012AC34 /* Dcoin_liteUITests.swift */,
+				7FF8DA7B1CBD57CD0012AC34 /* Info.plist */,
+			);
+			path = "Dcoin liteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF8DA551CBD57CC0012AC34 /* Dcoin lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF8DA7E1CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin lite" */;
+			buildPhases = (
+				7FF8DA521CBD57CC0012AC34 /* Sources */,
+				7FF8DA531CBD57CC0012AC34 /* Frameworks */,
+				7FF8DA541CBD57CC0012AC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dcoin lite";
+			productName = "Dcoin lite";
+			productReference = 7FF8DA561CBD57CC0012AC34 /* Dcoin lite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FF8DA691CBD57CD0012AC34 /* Dcoin liteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF8DA811CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteTests" */;
+			buildPhases = (
+				7FF8DA661CBD57CD0012AC34 /* Sources */,
+				7FF8DA671CBD57CD0012AC34 /* Frameworks */,
+				7FF8DA681CBD57CD0012AC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF8DA6C1CBD57CD0012AC34 /* PBXTargetDependency */,
+			);
+			name = "Dcoin liteTests";
+			productName = "Dcoin liteTests";
+			productReference = 7FF8DA6A1CBD57CD0012AC34 /* Dcoin liteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FF8DA741CBD57CD0012AC34 /* Dcoin liteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF8DA841CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteUITests" */;
+			buildPhases = (
+				7FF8DA711CBD57CD0012AC34 /* Sources */,
+				7FF8DA721CBD57CD0012AC34 /* Frameworks */,
+				7FF8DA731CBD57CD0012AC34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF8DA771CBD57CD0012AC34 /* PBXTargetDependency */,
+			);
+			name = "Dcoin liteUITests";
+			productName = "Dcoin liteUITests";
+			productReference = 7FF8DA751CBD57CD0012AC34 /* Dcoin liteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF8DA4E1CBD57CC0012AC34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Andrei;
+				TargetAttributes = {
+					7FF8DA551CBD57CC0012AC34 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					7FF8DA691CBD57CD0012AC34 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7FF8DA551CBD57CC0012AC34;
+					};
+					7FF8DA741CBD57CD0012AC34 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7FF8DA551CBD57CC0012AC34;
+					};
+				};
+			};
+			buildConfigurationList = 7FF8DA511CBD57CC0012AC34 /* Build configuration list for PBXProject "Dcoin lite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF8DA4D1CBD57CC0012AC34;
+			productRefGroup = 7FF8DA571CBD57CC0012AC34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF8DA551CBD57CC0012AC34 /* Dcoin lite */,
+				7FF8DA691CBD57CD0012AC34 /* Dcoin liteTests */,
+				7FF8DA741CBD57CD0012AC34 /* Dcoin liteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF8DA541CBD57CC0012AC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF8DA641CBD57CD0012AC34 /* LaunchScreen.storyboard in Resources */,
+				7FF8DA611CBD57CD0012AC34 /* Assets.xcassets in Resources */,
+				7FF8DA5F1CBD57CC0012AC34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA681CBD57CD0012AC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA731CBD57CD0012AC34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF8DA521CBD57CC0012AC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF8DA5C1CBD57CC0012AC34 /* ViewController.swift in Sources */,
+				7FF8DA5A1CBD57CC0012AC34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA661CBD57CD0012AC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF8DA6F1CBD57CD0012AC34 /* Dcoin_liteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF8DA711CBD57CD0012AC34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF8DA7A1CBD57CD0012AC34 /* Dcoin_liteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FF8DA6C1CBD57CD0012AC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF8DA551CBD57CC0012AC34 /* Dcoin lite */;
+			targetProxy = 7FF8DA6B1CBD57CD0012AC34 /* PBXContainerItemProxy */;
+		};
+		7FF8DA771CBD57CD0012AC34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF8DA551CBD57CC0012AC34 /* Dcoin lite */;
+			targetProxy = 7FF8DA761CBD57CD0012AC34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FF8DA5D1CBD57CC0012AC34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF8DA5E1CBD57CC0012AC34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FF8DA621CBD57CD0012AC34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF8DA631CBD57CD0012AC34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FF8DA7C1CBD57CD0012AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FF8DA7D1CBD57CD0012AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF8DA7F1CBD57CD0012AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dcoin lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7FF8DA801CBD57CD0012AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dcoin lite/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-lite";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7FF8DA821CBD57CD0012AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dcoin liteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-liteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dcoin lite.app/Dcoin lite";
+			};
+			name = Debug;
+		};
+		7FF8DA831CBD57CD0012AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dcoin liteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-liteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dcoin lite.app/Dcoin lite";
+			};
+			name = Release;
+		};
+		7FF8DA851CBD57CD0012AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dcoin liteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-liteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dcoin lite";
+			};
+			name = Debug;
+		};
+		7FF8DA861CBD57CD0012AC34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Dcoin liteUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-liteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Dcoin lite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF8DA511CBD57CC0012AC34 /* Build configuration list for PBXProject "Dcoin lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF8DA7C1CBD57CD0012AC34 /* Debug */,
+				7FF8DA7D1CBD57CD0012AC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF8DA7E1CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF8DA7F1CBD57CD0012AC34 /* Debug */,
+				7FF8DA801CBD57CD0012AC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FF8DA811CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF8DA821CBD57CD0012AC34 /* Debug */,
+				7FF8DA831CBD57CD0012AC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FF8DA841CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF8DA851CBD57CD0012AC34 /* Debug */,
+				7FF8DA861CBD57CD0012AC34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF8DA4E1CBD57CC0012AC34 /* Project object */;
+}
