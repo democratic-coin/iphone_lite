@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					7FF8DA551CBD57CC0012AC34 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 6K8SV2N4VK;
 					};
 					7FF8DA691CBD57CD0012AC34 = {
 						CreatedOnToolsVersion = 7.3;
@@ -401,9 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Dcoin lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-lite";
+				PRODUCT_BUNDLE_IDENTIFIER = club.dcoin.Dcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -412,9 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Dcoin lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "club.dcoin.Dcoin-lite";
+				PRODUCT_BUNDLE_IDENTIFIER = club.dcoin.Dcoin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -484,6 +487,7 @@
 				7FF8DA801CBD57CD0012AC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF8DA811CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +496,7 @@
 				7FF8DA831CBD57CD0012AC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF8DA841CBD57CD0012AC34 /* Build configuration list for PBXNativeTarget "Dcoin liteUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +505,7 @@
 				7FF8DA861CBD57CD0012AC34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
