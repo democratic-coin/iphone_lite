@@ -48,8 +48,21 @@ class ViewController: UIViewController, WKNavigationDelegate {
         print("provisional navigation")
     }
     
+    func webView(webView: WKWebView, decidePolicyForNavigationResponse navigationResponse: WKNavigationResponse, decisionHandler: (WKNavigationResponsePolicy) -> Void) {
+        let resp = navigationResponse.response as! NSHTTPURLResponse
+        let cookies = NSHTTPCookie.cookiesWithResponseHeaderFields(resp.allHeaderFields as! [String:String], forURL: resp.URL!)
+        
+        for cookie in cookies {
+            NSHTTPCookieStorage.sharedHTTPCookieStorage().setCookie(cookie)
+        }
+        
+        decisionHandler(.Allow)
+    }
+    
     func webView(webView: WKWebView, decidePolicyForNavigationAction navigationAction: WKNavigationAction, decisionHandler: (WKNavigationActionPolicy) -> Void) {
         let request = navigationAction.request
+        
+        
         let path = request.URL?.absoluteString
         
         if let isThere = path?.containsString("dcoinKey") where isThere {
@@ -57,13 +70,11 @@ class ViewController: UIViewController, WKNavigationDelegate {
             let str = request.URL!.absoluteString + "&ios=1&first=1"
             let url = NSURL(string: str)!
             print("downloading key \(url)")
-            dispatch_async(dispatch_get_main_queue(), {
                 if let data = NSData(contentsOfURL: url) {
                     if let img = UIImage(data: data) {
                          UIImageWriteToSavedPhotosAlbum(img, nil, nil, nil)
                     }
                 }
-            })
         }
         
         decisionHandler(WKNavigationActionPolicy.Allow)
