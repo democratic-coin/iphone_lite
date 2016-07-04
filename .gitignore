@@ -53,3 +53,9 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+
+## Fastlane
+*.cer
+*.p12
+fastlane/
+*.cert*

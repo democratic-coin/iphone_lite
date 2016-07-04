@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7746AD0C1CE829DE001D1759 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7746AD0B1CE829DE001D1759 /* SnapshotHelper.swift */; };
 		7FF8DA5A1CBD57CC0012AC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA591CBD57CC0012AC34 /* AppDelegate.swift */; };
 		7FF8DA5C1CBD57CC0012AC34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF8DA5B1CBD57CC0012AC34 /* ViewController.swift */; };
 		7FF8DA5F1CBD57CC0012AC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF8DA5D1CBD57CC0012AC34 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7746AD0B1CE829DE001D1759 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
 		7FF8DA561CBD57CC0012AC34 /* Dcoin lite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dcoin lite.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF8DA591CBD57CC0012AC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FF8DA5B1CBD57CC0012AC34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 		7FF8DA781CBD57CD0012AC34 /* Dcoin liteUITests */ = {
 			isa = PBXGroup;
 			children = (
+				7746AD0B1CE829DE001D1759 /* SnapshotHelper.swift */,
 				7FF8DA791CBD57CD0012AC34 /* Dcoin_liteUITests.swift */,
 				7FF8DA7B1CBD57CD0012AC34 /* Info.plist */,
 			);
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FF8DA7A1CBD57CD0012AC34 /* Dcoin_liteUITests.swift in Sources */,
+				7746AD0C1CE829DE001D1759 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +409,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Dcoin lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = club.dcoin.Dcoin;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcoin.Dcoin-lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -417,7 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Dcoin lite/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = club.dcoin.Dcoin;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcoin.Dcoin-lite";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
